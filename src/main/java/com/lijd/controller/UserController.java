@@ -13,7 +13,6 @@ public class UserController {
     @RequestMapping("login")
     public String login(){
         System.out.println("可以访问");
-
         return "login";
     }
 }
